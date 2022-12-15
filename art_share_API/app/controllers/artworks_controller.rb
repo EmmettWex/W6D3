@@ -23,6 +23,13 @@ class ArtworksController < ApplicationController
         end
     end
 
+    def destroy
+        @artwork = Artwork.find(artwork_params[:id])
+
+        @artwork.destroy
+        render json: @artwork
+    end
+
     def show
         @artwork = Artwork.find(artwork_params[:id])
         render json: @artwork

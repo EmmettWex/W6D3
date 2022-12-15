@@ -1,10 +1,10 @@
-class ArtworkShare < ApplicationController
+class ArtworkSharesController < ApplicationController
 
-    def create(art_id, viewer_id)
+    def create
         @artwork_share = ArtworkShare.new(artwork_share_params)
 
         if @artwork_share.save
-            render json: @artwork_share, status: 201
+            render json: @artwork_share
         else
             render json: @artwork_share.errors.full_messages, status: 422
         end

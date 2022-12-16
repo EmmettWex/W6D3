@@ -31,4 +31,6 @@ class User < ApplicationRecord
         through: :artwork_shares,
         source: :artwork
 
+    
+
 end

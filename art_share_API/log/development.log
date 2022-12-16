@@ -463,3 +463,118 @@ Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 64
 
 ActionController::InvalidAuthenticityToken - HTTP Origin header (chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop) didn't match request.base_url (http://localhost:3000):
 
+Started GET "/" for ::1 at 2022-12-15 20:36:30 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/emmettw/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/emmettw/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 526)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 2808)
+
+
+Started POST "/artwork_shares" for ::1 at 2022-12-15 20:36:35 -0500
+Processing by ArtworkSharesController#create as */*
+  Parameters: {"------WebKitFormBoundaryS8hwcuNzy4EAw5dm\r\nContent-Disposition: form-data; name"=>"\"artwork_id\"\r\n\r\n1\r\n------WebKitFormBoundaryS8hwcuNzy4EAw5dm\r\nContent-Disposition: form-data; name=\"viewer_id\"\r\n\r\n3\r\n------WebKitFormBoundaryS8hwcuNzy4EAw5dm--\r\n"}
+HTTP Origin header (chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop) didn't match request.base_url (http://localhost:3000)
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 768)
+
+
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop) didn't match request.base_url (http://localhost:3000):
+
+Started POST "/artwork_shares" for ::1 at 2022-12-15 20:37:19 -0500
+Processing by ArtworkSharesController#create as */*
+  Parameters: {"------WebKitFormBoundaryKBXSea3W4Y2VFLOY\r\nContent-Disposition: form-data; name"=>"\"artwork_shares[artwork_id]\"\r\n\r\n1\r\n------WebKitFormBoundaryKBXSea3W4Y2VFLOY\r\nContent-Disposition: form-data; name=\"artwork_shares[viewer_id]\"\r\n\r\n3\r\n------WebKitFormBoundaryKBXSea3W4Y2VFLOY--\r\n"}
+HTTP Origin header (chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop) didn't match request.base_url (http://localhost:3000)
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 638)
+
+
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop) didn't match request.base_url (http://localhost:3000):
+
+Started POST "/artwork_shares" for ::1 at 2022-12-15 20:37:58 -0500
+Processing by ArtworkSharesController#create as */*
+  Parameters: {"------WebKitFormBoundaryeAuTorft0X6B8ImK\r\nContent-Disposition: form-data; name"=>"\"artwork_shares[artwork_id]\"\r\n\r\n1\r\n------WebKitFormBoundaryeAuTorft0X6B8ImK\r\nContent-Disposition: form-data; name=\"artwork_shares[viewer_id]\"\r\n\r\n1\r\n------WebKitFormBoundaryeAuTorft0X6B8ImK--\r\n"}
+HTTP Origin header (chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop) didn't match request.base_url (http://localhost:3000)
+Completed 422 Unprocessable Entity in 21ms (ActiveRecord: 0.0ms | Allocations: 638)
+
+
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop) didn't match request.base_url (http://localhost:3000):
+
+Started POST "/artwork_shares" for ::1 at 2022-12-15 20:38:45 -0500
+Processing by ArtworkSharesController#create as */*
+  Parameters: {"------WebKitFormBoundaryI31busoJhDpXe0HI\r\nContent-Disposition: form-data; name"=>"\"artwork_shares[artwork_id]\"\r\n\r\n1\r\n------WebKitFormBoundaryI31busoJhDpXe0HI\r\nContent-Disposition: form-data; name=\"artwork_shares[viewer_id]\"\r\n\r\n1\r\n------WebKitFormBoundaryI31busoJhDpXe0HI--\r\n"}
+HTTP Origin header (chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop) didn't match request.base_url (http://localhost:3000)
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 647)
+
+
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop) didn't match request.base_url (http://localhost:3000):
+
+Started POST "/artwork_shares" for ::1 at 2022-12-15 20:40:42 -0500
+Processing by ArtworkSharesController#create as */*
+  Parameters: {"------WebKitFormBoundaryb55LlLPBMXsxs9RZ\r\nContent-Disposition: form-data; name"=>"\"artwork_shares[artwork_id]\"\r\n\r\n1\r\n------WebKitFormBoundaryb55LlLPBMXsxs9RZ\r\nContent-Disposition: form-data; name=\"artwork_shares[viewer_id]\"\r\n\r\n1\r\n------WebKitFormBoundaryb55LlLPBMXsxs9RZ--\r\n"}
+HTTP Origin header (chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop) didn't match request.base_url (http://localhost:3000)
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 647)
+
+
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop) didn't match request.base_url (http://localhost:3000):
+
+Started POST "/artwork_shares" for ::1 at 2022-12-15 20:40:51 -0500
+Processing by ArtworkSharesController#create as */*
+  Parameters: {"------WebKitFormBoundaryuIlozTDya1AhsHRw\r\nContent-Disposition: form-data; name"=>"\"artwork_shares[artwork_id]\"\r\n\r\n1\r\n------WebKitFormBoundaryuIlozTDya1AhsHRw\r\nContent-Disposition: form-data; name=\"artwork_shares[viewer_id]\"\r\n\r\n1\r\n------WebKitFormBoundaryuIlozTDya1AhsHRw--\r\n"}
+HTTP Origin header (chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop) didn't match request.base_url (http://localhost:3000)
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 647)
+
+
+
+ActionController::InvalidAuthenticityToken - HTTP Origin header (chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop) didn't match request.base_url (http://localhost:3000):
+
+Started POST "/artwork_shares" for ::1 at 2022-12-15 20:41:17 -0500
+
+SyntaxError - syntax error, unexpected label, expecting `do' or '{' or '('
+...:artwork_shares, debugger only: [:create, :destroy]
+...                          ^~~~~:
+  config/routes.rb:10:in `'
+
+  [1m[36mArtwork Load (0.9ms)[0m  [1m[34mSELECT "artworks".* FROM "artworks"[0m
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mArtworkShare Load (2.3ms)[0m  [1m[34mSELECT "artwork_shares".* FROM "artwork_shares"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtwork Load (0.5ms)[0m  [1m[34mSELECT "artworks".* FROM "artworks" WHERE "artworks"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mArtworkShare Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "artwork_shares" WHERE "artwork_shares"."artwork_id" = $1 AND "artwork_shares"."viewer_id" = $2 LIMIT $3[0m  [["artwork_id", 1], ["viewer_id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mArtworkShare Create (1.7ms)[0m  [1m[32mINSERT INTO "artwork_shares" ("artwork_id", "viewer_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["artwork_id", 1], ["viewer_id", 1], ["created_at", "2022-12-16 01:50:28.032960"], ["updated_at", "2022-12-16 01:50:28.032960"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtwork Load (0.3ms)[0m  [1m[34mSELECT "artworks".* FROM "artworks" WHERE "artworks"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mArtworkShare Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "artwork_shares" WHERE "artwork_shares"."artwork_id" = $1 AND "artwork_shares"."viewer_id" = $2 LIMIT $3[0m  [["artwork_id", 1], ["viewer_id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mArtworkShare Create (0.5ms)[0m  [1m[32mINSERT INTO "artwork_shares" ("artwork_id", "viewer_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["artwork_id", 1], ["viewer_id", 2], ["created_at", "2022-12-16 01:51:23.371189"], ["updated_at", "2022-12-16 01:51:23.371189"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtwork Load (0.3ms)[0m  [1m[34mSELECT "artworks".* FROM "artworks" WHERE "artworks"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mArtworkShare Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "artwork_shares" WHERE "artwork_shares"."artwork_id" = $1 AND "artwork_shares"."viewer_id" = $2 LIMIT $3[0m  [["artwork_id", 1], ["viewer_id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtwork Load (0.3ms)[0m  [1m[34mSELECT "artworks".* FROM "artworks" WHERE "artworks"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mArtworkShare Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "artwork_shares" WHERE "artwork_shares"."artwork_id" = $1 AND "artwork_shares"."viewer_id" = $2 LIMIT $3[0m  [["artwork_id", 1], ["viewer_id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtwork Load (0.2ms)[0m  [1m[34mSELECT "artworks".* FROM "artworks" WHERE "artworks"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mArtworkShare Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "artwork_shares" WHERE "artwork_shares"."artwork_id" = $1 AND "artwork_shares"."viewer_id" = $2 LIMIT $3[0m  [["artwork_id", 1], ["viewer_id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mArtworkShare Create (0.3ms)[0m  [1m[32mINSERT INTO "artwork_shares" ("artwork_id", "viewer_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["artwork_id", 1], ["viewer_id", 3], ["created_at", "2022-12-16 01:51:53.368556"], ["updated_at", "2022-12-16 01:51:53.368556"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtwork Load (0.2ms)[0m  [1m[34mSELECT "artworks".* FROM "artworks" WHERE "artworks"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mArtworkShare Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "artwork_shares" WHERE "artwork_shares"."artwork_id" = $1 AND "artwork_shares"."viewer_id" = $2 LIMIT $3[0m  [["artwork_id", 1], ["viewer_id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtworkShare Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "artwork_shares" WHERE "artwork_shares"."artwork_id" = $1 AND "artwork_shares"."viewer_id" = $2 LIMIT $3[0m  [["artwork_id", 1], ["viewer_id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
